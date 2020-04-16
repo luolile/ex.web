@@ -38,6 +38,6 @@
     select  
     <include refid="Base_Column_List" />
     from sys_user
-    where user_name = #{value,jdbcType=STRING}
+    where user_name = #{value,jdbcType=VARCHAR}
   </select>
 </mapper>
